@@ -9,6 +9,8 @@ count = 0
 
 # I have two webcams, one is connected via usb and the other is built into the monitor.
 # To create a loop by turning the camera on the monitor, you will need a webcam that is separate from the monitor.
+# Each webcam is designated a number starting at 0.
+# On my imac the usb webcam was designated as 0 and the built in as 1 but it may be different for you.
 
 cap = cv2.VideoCapture(0) # USB webcam
 
